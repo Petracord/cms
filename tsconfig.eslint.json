@@ -1,0 +1,7 @@
+{
+	"extends": "./tsconfig.base.json",
+	"compilerOptions": {
+		"typeRoots": ["./node_modules/@types"]
+	},
+	"include": ["src", ".eslintrc.cjs", ".prettierrc.js", "tsup.config.ts"]
+}
